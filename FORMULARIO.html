@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Tecnologias WEB</title>
+
+        <link href="style.css" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <header class="header">
+            <div class="container logo-nav-container">
+                <img src="1.png" alt="">
+                <nav class="navigation">
+                    <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="BACKEND.html">BACKEND</a></li>
+                    <li><a href="FRONTEND.html">FRONTEND</a></li>
+                    <li><a href="BDD.html">MODELADO BDD</a></li>
+                    <li><a href="HERRAMIENTAS.html">HERRAMIENTAS</a></li>
+                    <li><a href="FORMULARIO.html">FORMULARIO</a></li>
+                </ul> 
+                   
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="container">
+
+                
+                <h1>INICIO</h1>
+                <br> 
+                <h3> FORMULARIO </h3>
+
+                <form action="html5-formularios.html" method="get" autocomplete>
+                    
+                    <label form="nombre">Nombre:</label>
+                    <input name="nombre" type="text" value="" maxlength="10" pattern="[A-Za-z]{3}" 
+                    placeholder="Nombre">
+                    <h3>Genero</h3>
+                    <input type="radio" name="Genero" value="Masculino" checked> Masculino
+                    <br>
+                    <input type="radio" name="Genero" value="Femenino"> Femenino
+                  
+                    <h3>Seleccione</h3>
+                    <label form="Marca de vehiculo">Marca de vehiculo:</label>
+                    <select name="Marca de vehiculo">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Peugeot</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                    </select>
+                    <h3>Observaciones</h3>
+                    <textarea name="Observaciones" rows="10" cols="30">
+                   
+                    </textarea>
+                 
+                    <h3>En caso de que tenga vehiculo</h3>
+                    <input type="Seleccione" name="Opcion1" value=""> Marcas<br>
+                    <input type="Seleccione" name="Opcion2" value=""> No tengo carro 
+                    <h3>Color Favorito</h3>
+                    <label form="color">Color:</label>
+                    <input type="color" name="favcolor">
+                    <h3>Fecha</h3>
+                    <label form="date">Fecha:</label>
+                    <input type="date" name="bday" min="2000-01-02">
+                    <h3>Email</h3>
+                    <label form="email">email:</label>
+                    <input type="email" name="email" autocomplete="off">
+                    <h3>Cuantos vehiculos le gustaron</h3>
+                    <label form="number">numero:</label>
+                    <input type="number" name="quantity" min="1" max="25" step="3">
+                  
+                    </form>
+
+              
+
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <p>Diseno por Roberth Vasquez</p>
+            </div>
+        </footer>
+
+    </body>
+</html>
